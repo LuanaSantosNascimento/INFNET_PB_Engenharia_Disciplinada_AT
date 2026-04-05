@@ -43,16 +43,18 @@ mvn test
 ## Relatório de Cobertura de Testes
 
 Após a execução dos testes, o relatório de cobertura de testes gerado pelo Jacoco estará disponível em:
+`target/site/jacoco/index.html`
+
 ```bash
 mvn jacoco:report
 ```
-`target/site/jacoco/index.html`
 
 ## Relatório de Cobertura de Testes
-Validação do estilo de código utilizando Checkstyle:
+Validação do estilo de código utilizando Checkstyle. O relatório estará disponível em:
+`target/site/checkstyle.html`
 
 ```bash
-mvn checkstyle:check
+mvn checkstyle:checkstyle
 ```
 
 ## Evidências dos Testes com Selenium
